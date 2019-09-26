@@ -282,7 +282,7 @@ class RenderSliverStaggeredGrid extends RenderSliverVariableSizeBoxAdaptor {
             pageSize, () => new SplayTreeMap<int, _ViewportOffsets>());
 
     _ViewportOffsets viewportOffset;
-    if (viewportOffsets.isEmpty) {
+    if (true) {
       viewportOffset = new _ViewportOffsets(
           configuration.generateMainAxisOffsets(), pageSize);
       viewportOffsets[0] = viewportOffset;
